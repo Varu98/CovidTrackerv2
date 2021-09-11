@@ -1,4 +1,84 @@
+* {
+  margin: 0;
+}
 body {
   background-color: #1d2323;
   color: #bfbfbf;
+  font-family: "Ubuntu Mono", monospace;
+}
+p {
+  max-width: 500px;
+  margin: auto;
+}
+.img {
+  float: right;
+  margin: 0 0 0 15px;
+  height: auto;
+  width: 80px;
+}
+.container {
+  text-align: center;
+
+  margin-top: 50px;
+}
+.navebar {
+  text-align: center;
+  font-size: 2rem;
+  color: #1d2323;
+  padding: 3rem 0;
+  margin: 0;
+  width: 100%;
+  background-color: #bfff0075;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
+}
+.btn {
+  margin: 40px 0;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.btn:hover {
+  background-color: #3e8e41;
+}
+
+.btn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+input {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+label {
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+table {
+  margin: auto;
+  margin-left: 20%;
+  text-align: center;
+}
+th,
+td,
+tr {
+  font-size: 1.5rem;
+  text-align: left;
+  padding: 10px;
+}
+td {
+  text-align: right;
 }

@@ -1,6 +1,5 @@
 const input = document.querySelector("#inputtext");
 const btn = document.querySelector(".btn");
-const output = document.querySelector(".output");
 const tableInput = document.querySelectorAll(".tableInput");
 
 const getTranslatedText = async (e) => {
