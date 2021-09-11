@@ -72,6 +72,23 @@ table {
   margin-left: 35%;
   text-align: center;
 }
+
+@media (max-width: 768px) {
+  table {
+    margin: auto;
+    padding: 0 1%;
+    text-align: center;
+  }
+
+  th,
+  td,
+  tr {
+    font-size: 0.8rem;
+    text-align: left;
+    padding: 10px;
+  }
+}
+
 th,
 td,
 tr {
