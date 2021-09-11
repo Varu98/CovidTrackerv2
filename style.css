@@ -67,35 +67,40 @@ label {
   font-weight: bolder;
   font-size: 1.5rem;
 }
-table {
-  margin: auto;
-  margin-left: 35%;
-  text-align: center;
-}
-
-@media (max-width: 768px) {
+@media (min-width: 769px) {
   table {
     margin: auto;
-    padding: 0 1%;
+    margin-left: 35%;
     text-align: center;
   }
 
   th,
   td,
   tr {
-    font-size: 0.8rem;
+    font-size: 1.5rem;
     text-align: left;
     padding: 10px;
   }
+  td {
+    text-align: right;
+  }
 }
 
-th,
-td,
-tr {
-  font-size: 1.5rem;
-  text-align: left;
-  padding: 10px;
-}
-td {
-  text-align: right;
+@media (max-width: 768px) {
+  table {
+    margin: auto;
+    margin: 0 10%;
+    text-align: center;
+  }
+
+  th,
+  td,
+  tr {
+    font-size: 0.99rem;
+    text-align: left;
+    padding: 10px;
+  }
+  td {
+    text-align: right;
+  }
 }
